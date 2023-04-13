@@ -7,6 +7,9 @@ body{
     background: #C1A9DA;
   
 }
+.cor-fundo{
+    background-color: #6A5A81;
+}
 .login{
     margin: 0 auto;
     text-align:center;
@@ -25,7 +28,8 @@ h1{
     background: #38313F;
 border: 3px solid #FFFFFF;
 border-radius: 30px;
-padding: 10px
+padding: 10px;
+text-align: left;
 
 }
 input {
@@ -42,6 +46,7 @@ input {
     font-weight: 900;
     font-size: 14px;
     line-height: 18px;
+    text-align: left;
     
     
     
@@ -59,7 +64,7 @@ font-style: normal;
 font-weight: 900;
 font-size: 14px;
 line-height: 18px;
-
+text-align: left;
 color: #FFFFFF;
 
 }
@@ -119,19 +124,89 @@ height: 25px;
 padding: 10px;
 text-decoration: none;
 font-weight: bold;
+text-align: center;
 }
-.BOTAO2 {
+.BOTAO2{
+   padding: 15px;
+    margin-top: 20px;
     margin-top: 200px;
-    margin-left: 50px;
-    background: rgba(255, 255, 255, 0.77);
+   background:  linear-gradient(180deg, #722BBA 0%, #B6FCD2 0.01%, #C1A9DA 100%);
 border-radius: 100px;
-color: rgb(0, 0, 0);
-width: 80%;
-height: 25px;
-padding: 10px;
+
+color: #722BBA;
 text-decoration: none;
-font-weight: bold;
+
 }
+.class2 {
+    text-align:right;
+    
+
+}
+.class3{
+    text-align: center;
+    font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+.class4{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.comece-agora {
+    
+    background: #000000a4;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+   
+    
+    
+    }
+.ver-planos {
+    background: #000000a4;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 25px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+
+}
+.img {
+    width: 100%;
+}
+.estrelas{
+    display: flex;
+    justify-content: center;
+}
+.cab {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    min-height: 90px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
    
     
 
